@@ -1,16 +1,16 @@
 body {
   /*width: 1400px;*/
-  background: #F9FBFF;
+  /*background: #F9FBFF;*/
   margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
   font-family: Nunito;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
+  background: #F2F2F2;
 }
 
 header {
@@ -24,6 +24,7 @@ h1 {
   font-size: 54px;
   line-height: 70px;
   z-index: 2;
+  padding: 0 15px;
 }
 
 a/*.text-style_Nunito*/ {
@@ -38,10 +39,12 @@ a .menu-list-active {
 footer {
   background: #EDF0F5;
   height: 60px;
- /* width: 1400px;*/
+  width: 100%;
+  color: #415167;
   justify-content: center;
   align-items: center;
   display: flex;
+  font-style: italic;
 }
 
 ul, li {
@@ -49,7 +52,10 @@ ul, li {
   margin: 0;
 }
 
-.title_style {
+/*p {
+  margin: 0;
+}*/
+.title-style {
   width: 800px;
   margin: 0 auto;
   /*width: 740px;*/
@@ -59,10 +65,10 @@ ul, li {
   text-align: center;
 }
 
-.title_style .small {
+.title-style .small {
 
 }
 
-.title_style .big {
+.title-style .big {
 
 }
